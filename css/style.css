@@ -1,0 +1,31 @@
+.csvtable{
+    border-radius:5px;
+}
+.csvtable td{
+padding:8px;
+}
+.csvtable tr:nth-child(even) td{
+    background: #dddddd;
+}
+.csvtable tr:nth-child(odd) td{
+    background: #FFF;
+}
+.csvtable tr:first-child  td{
+font-size:20 px;
+font-weight:bold;
+}
+.csvlookup{
+  margin-bottom:5px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.csvpagination a{
+margin:5px;
+padding:5px 10px;
+border: solid 1px #CCC;
+border-radius:7px;
+text-decoration: none;
+}
